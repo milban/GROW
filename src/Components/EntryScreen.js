@@ -24,7 +24,9 @@ const Slogan = styled.div`
   font-size: 2rem;
 `
 
-const Text = styled.div``
+const Text = styled.div`
+  white-space: nowrap;
+`
 
 const Illust = styled.div`
   background-image: url(${CoworkingIllust});
