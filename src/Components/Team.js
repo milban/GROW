@@ -19,6 +19,12 @@ const TeamDescription = styled.div`
   padding: 0rem 2rem;
   display: flex;
   flex-direction: column;
+  font-weight: 600;
+`
+
+const TeamInfo = styled.span`
+  display: block;
+  margin: 10px;
 `
 
 const MemberWrapper = styled.div`
@@ -41,6 +47,12 @@ const MemberCard = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+      rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+    transition: all 0.2s ease-in-out;
+  }
 `
 
 const MemberProfile = styled.div`
@@ -65,7 +77,9 @@ export default () => (
   <ContentContainer title="Team">
     <Container>
       <TeamDescription>
-        <span>팀 소개 들어갈 예정</span>
+        <TeamInfo>사용자에게 더 나은 삶을 제공하고 싶은 열정 가득한 팀입니다.</TeamInfo>
+        <TeamInfo>실력도 가파르게 급상승 중이에요!</TeamInfo>
+        <TeamInfo>항상 밝고 긍정적인 분위기에서 즐겁게 일하고 있습니다!</TeamInfo>
       </TeamDescription>
       <MemberWrapper>
         <MemberCard>

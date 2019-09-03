@@ -29,6 +29,7 @@ const Container = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  padding-bottom: 10rem;
 `
 
 function App() {

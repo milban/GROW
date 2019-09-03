@@ -11,8 +11,15 @@ const Container = styled.div`
   justify-content: center;
 `
 
+const ContactWay = styled.div`
+  font-size: 1.5rem;
+  font-weight: 600;
+`
+
 export default () => (
   <ContentContainer title="Contact Us">
-    <Container></Container>
+    <Container>
+      <ContactWay>Email: wnsgur6311@gmail.com</ContactWay>
+    </Container>
   </ContentContainer>
 )
