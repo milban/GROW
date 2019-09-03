@@ -48,7 +48,7 @@ const MemberCard = styled.div`
   justify-content: center;
   align-items: center;
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
       rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
     transition: all 0.2s ease-in-out;
@@ -58,11 +58,10 @@ const MemberCard = styled.div`
 const MemberProfile = styled.div`
   width: 200px;
   height: 200px;
-  border-radius: 30px;
+  border-radius: 80px;
   background-image: url(${props => props.profileImg});
   background-position: center center;
   background-size: cover;
-  border: 1px solid black;
   margin-bottom: 10px;
 `
 
@@ -88,7 +87,7 @@ export default () => (
           <MemberInfo color="grey" fontSize="10px">
             경희대학교 / 휴학중
           </MemberInfo>
-          <MemberInfo>세상에서 제일 잘 앉아있습니다.</MemberInfo>
+          <MemberInfo>loop(운동, 밥, 코딩)</MemberInfo>
         </MemberCard>
         <MemberCard>
           <MemberProfile profileImg={GyuTaeProfile} />
@@ -96,7 +95,7 @@ export default () => (
           <MemberInfo color="grey" fontSize="10px">
             경희대학교 / 휴학중
           </MemberInfo>
-          <MemberInfo>운동 관련 서비스를 만들지만 먹는게 더 좋습니다.</MemberInfo>
+          <MemberInfo>먹는게 좋습니다.</MemberInfo>
         </MemberCard>
         <MemberCard>
           <MemberProfile profileImg={JunHyeockProfile} />

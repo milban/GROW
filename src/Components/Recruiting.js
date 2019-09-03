@@ -41,10 +41,6 @@ export default () => (
         <FieldInfo>구인하고 있지 않아요.</FieldInfo>
       </FieldCard>
       <FieldCard>
-        <FieldInfo fontSize="2rem">개발자</FieldInfo>
-        <FieldInfo>Android / IOS / Spring</FieldInfo>
-      </FieldCard>
-      <FieldCard>
         <FieldInfo fontSize="2rem">디자이너</FieldInfo>
         <FieldInfo>완전 완전 급구중이에요!</FieldInfo>
         <FieldInfo>Sketch / Figma / Adobe XD 등</FieldInfo>
@@ -52,6 +48,10 @@ export default () => (
         <FieldInfo>Protopie 등</FieldInfo>
         <FieldInfo>프로토타이핑 툴 사용 가능자</FieldInfo>
         <FieldInfo>우리의 서비스를 아름답게 꾸며주세요</FieldInfo>
+      </FieldCard>
+      <FieldCard>
+        <FieldInfo fontSize="2rem">개발자</FieldInfo>
+        <FieldInfo>Android / IOS / Spring</FieldInfo>
       </FieldCard>
     </Container>
   </ContentContainer>

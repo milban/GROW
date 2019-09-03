@@ -8,7 +8,8 @@ const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 0rem 2rem;
 `
 
 const ContactWay = styled.div`
